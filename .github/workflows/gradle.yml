@@ -21,16 +21,16 @@ jobs:
       with:
         java-version: 1.8
     - name: Grant execute permission for gradlew
-      working-directory: ./tiralabra_projekti
+      working-directory: ./chess-master
       run: chmod +x gradlew
     - name: Build with Gradle
-      working-directory: ./tiralabra_projekti
+      working-directory: ./chess-master
       run: ./gradlew build  
     - name: Test with Gradle
-      working-directory: ./tiralabra_projekti
+      working-directory: ./chess-master
       run: ./gradlew test      
     - name: Code coverage rapost
-      working-directory: ./tiralabra_projekti
+      working-directory: ./chess-master
       run: ./gradlew jacocoTestReport
     - name: Data to codecov
       run: bash <(curl -s https://codecov.io/bash)

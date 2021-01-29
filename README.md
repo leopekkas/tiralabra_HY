@@ -13,3 +13,4 @@ Kurssirepositorio Helsingin yliopiston kurssille Tietorakenteet ja Algortimit - 
 ## Viikkoraportit
 
 [Viikko 1](https://github.com/leopekkas/tiralabra_HY/blob/main/dokumentaatio/viikkoraportit/viikko1.md)
+[Viikko 2](https://github.com/leopekkas/tiralabra_HY/blob/main/dokumentaatio/viikkoraportit/viikko2.md)
