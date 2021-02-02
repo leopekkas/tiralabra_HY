@@ -3,6 +3,7 @@
  */
 package chess;
 
+import datastructureproject.PerformanceTest;
 import chess.bot.ChessBot;
 import chess.bot.TestBot;
 import chess.connection.LichessAPI;
